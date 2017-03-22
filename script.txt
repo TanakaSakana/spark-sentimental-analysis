@@ -1,0 +1,1 @@
+spark-submit --class "Entry" target\scala-2.11\spark-tutorial_2.11-1.0.jar
