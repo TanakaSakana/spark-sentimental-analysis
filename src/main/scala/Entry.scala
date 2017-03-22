@@ -22,7 +22,7 @@ object Entry {
     Logger.getLogger("org").setLevel(Level.OFF)
     Logger.getLogger("akka").setLevel(Level.OFF)
 
-    val rawData = sc.textFile("../twittertutorial/output.txt")
+    val rawData = sc.textFile("raw.txt")
     val tables = rawData.map {
       line =>
         val cols = line.split(" -> ")
